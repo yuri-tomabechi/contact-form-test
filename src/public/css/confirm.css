@@ -1,0 +1,114 @@
+body {
+    /* color: #8B7969; */
+    font-family: "Inika";
+}
+
+.header {
+    /* background: #000; */
+    border-bottom: 0.5px solid #8B7969;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo{
+    color: #8B7969;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+}
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1000px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+}
+.confirm__content .confirm__heading h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px 35px;
+    width: 35%;
+    border-bottom: 1px solid #ddd;
+    background-color: #b8a798;
+    /* font-weight: bold; */
+    color: white;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+.contact-text div{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.form__button {
+    margin-top: 40px;
+    /* text-align: center; */
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.form__button-submit {
+    padding: 7px 40px;
+    /* width: 30%; */
+    /* height: 40px; */
+    border: none;
+    /* border-radius: 3px; */
+    background: #80766c;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 30px;
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%);
+}
+.form__button-primary{
+    border: none;
+    background-color: #fff;
+    text-decoration: underline;
+    position: relative;
+    left: 62%;
+    top: 5px;
+    cursor: pointer;
+    color: #8B7969;
+}
