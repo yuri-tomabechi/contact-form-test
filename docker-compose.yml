@@ -21,7 +21,7 @@ services:
     platform: linux/amd64
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: laravel_db
+      MYSQL_DATABASE: laravel_contact
       MYSQL_USER: laravel_user
       MYSQL_PASSWORD: laravel_pass
     command:
@@ -41,4 +41,4 @@ services:
     depends_on:
       - mysql
     ports:
-      - 8080:80
+      - 8082:80
