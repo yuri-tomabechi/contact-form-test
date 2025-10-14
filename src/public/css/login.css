@@ -1,0 +1,17 @@
+.login-form__content {
+    background-color: #f2ece7;
+    height: calc(100vh - 90px);
+    padding: 60px 20px;
+}
+
+.login-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.login-form__heading h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-block-start: -0.83em;
+}

@@ -1,0 +1,11 @@
+.admin__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.admin__heading h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-block-start: -0.83em;
+}

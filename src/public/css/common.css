@@ -1,0 +1,109 @@
+body {
+    /* color: #8B7969; */
+    font-family: "Inika";
+}
+
+.header {
+    /* background: #000; */
+    /* border-bottom: 0.5px solid #8B7969; */
+    height: 90px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* text-align: center; */
+}
+
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 32px;
+    /* text-align: center; */
+    font-weight: 400;
+}
+
+.header__inner .login__button {
+    text-decoration: none;
+    color: #d9c6b5;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    border: 1px solid #d9c6b5;
+    padding: 5px 15px;
+    background-color: #f6f6f6;
+}
+
+
+
+
+.form {
+    margin: 0 auto;
+    max-width: 500px;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    padding: 50px 80px;
+}
+
+
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 15px; */
+}
+
+.form__group-title {
+    width: 100%;
+    color: #8B7969;
+    margin-bottom: 7px;
+}
+
+.form__group-content {
+    width: 100%;
+}
+
+.form__error {
+    height: 16px;
+    /* font-size: 16px; */
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__group-content select {
+    padding: 15px;
+    /* width: 600px; */
+    width: 100%;
+
+    border: none;
+    /* border-radius: 3px; */
+    appearance: none;
+    color: #8B7969;
+    background-color: #f5f5f5;
+    /* border: 1px solid red; */
+}
+
+.form__button {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 5px 30px;
+    /* width: 30%; */
+    /* height: 50px; */
+    border: none;
+    /* border-radius: 3px; */
+    background: #8B7969;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}

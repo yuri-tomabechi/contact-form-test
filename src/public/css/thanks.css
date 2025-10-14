@@ -1,3 +1,7 @@
+body {
+    /* color: #8B7969; */
+    font-family: "Inika";
+}
 .thanks__content{
     max-width: 1200px;
     margin: 0 auto;
@@ -27,7 +31,7 @@
     font-size: 18px;
 }
 .thanks_txt a{
-    color: white;
+    color: #fff;
     border: none;
     background-color: #84776a;
     padding: 7px 35px;
