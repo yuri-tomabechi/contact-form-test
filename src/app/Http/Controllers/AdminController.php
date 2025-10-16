@@ -9,6 +9,7 @@ class AdminController extends Controller
 {
     public function index(Request $request)
     {
+    
         // 検索フィルタ
         $query = Contact::query();
 
