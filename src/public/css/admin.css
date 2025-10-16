@@ -8,4 +8,166 @@
     font-weight: 400;
     font-size: 28px;
     margin-block-start: -0.83em;
+    border-top: 0.5px solid #8B7969;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+.form__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+input, select{
+    padding: 12px 10px;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
+    color: #8b7969;
+}
+
+.input__txt{
+    width: 30%;
+}
+
+.search__button, .reset__button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 11px 25px;
+}
+.search__button{
+    background-color: #857b6f;
+    border: none;
+}
+.reset__button a{
+     background-color: #d9c5b5;
+}
+
+.table-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 80px;
+}
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    color: #8b7969;
+}
+.name__row{
+    width: 16%;
+}
+.gender__row{
+    width: 12%;
+}
+.email__row{
+    width: 35%;
+}
+.category__row{
+    width: 18%;
+}
+
+.admin-table th {
+    background-color: #8b7969;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.admin-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.btn-detail {
+    background-color: transparent;
+    color: #8a6b52;
+    border: 1px solid #d6c5b3;
+    padding: 4px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.flex__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.export__button{
+    background-color: #eceae8;
+    color: #8B7969;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.pagination{
+    /* border: 1px solid #8a6b52 */
+}
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+/* --- Pagination 全体 --- */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    list-style: none;
+    padding: 0;
+}
+
+/* --- 各ボタン --- */
+.pagination .page-item .page-link,
+.pagination .page-item span {
+    display: inline-block;
+    min-width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    /* border-radius: 6px; */
+    background-color: #f8f9fa;
+    border: 1px solid #e0dfde;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* --- ホバー時 --- */
+.pagination .page-item a.page-link:hover {
+    background-color: #8b7969;
+    color: #fff;
+    border-color: #8b7969;
+}
+
+/* --- 現在のページ（アクティブ） --- */
+.pagination .page-item.active span {
+    background-color: #8b7969;
+    color: white;
+    border-color: #8b7969;
+    cursor: default;
+}
+
+/* --- 無効（前へ・次へが使えない時） --- */
+.pagination .page-item.disabled span {
+    background-color: #e9ecef;
+    color: #aaa;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* --- 矢印ボタン --- */
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    font-size: 20px;
+    /* font-weight: bold; */
 }

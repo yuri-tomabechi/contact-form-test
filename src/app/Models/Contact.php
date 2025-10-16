@@ -18,4 +18,10 @@ class Contact extends Model
             'category',
             'detail'
         ];
+        
+    public function category()
+    {
+        return $this->belongsTo(\App\Models\Category::class, 'category_id');
+    }
+
 }

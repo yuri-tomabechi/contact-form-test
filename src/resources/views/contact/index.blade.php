@@ -48,16 +48,16 @@
               <label for="gender_other">その他</label>
             </div> --}}
             <div class="form__input--text gender-inputs">
-                <input type="radio" id="gender_male" name="gender" value="male" 
-                {{ old('gender') == 'male' ? 'checked' : '' }} />
+                <input type="radio" id="gender_male" name="gender" value="1" 
+                {{ old('gender') == '1' ? 'checked' : '' }} />
                 <label for="gender_male">男性</label>
 
-                <input type="radio" id="gender_female" name="gender" value="female"
-                {{ old('gender') == 'female' ? 'checked' : '' }} />
+                <input type="radio" id="gender_female" name="gender" value="2"
+                {{ old('gender') == '2' ? 'checked' : '' }} />
                 <label for="gender_female">女性</label>
 
-                <input type="radio" id="gender_other" name="gender" value="other"
-                {{ old('gender') == 'other' ? 'checked' : '' }} />
+                <input type="radio" id="gender_other" name="gender" value="3"
+                {{ old('gender') == '3' ? 'checked' : '' }} />
                 <label for="gender_other">その他</label>
             </div>
 
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <div class="form__group">
+        <div class="form__group contact__content">
           <div class="form__group-title">
             <span class="form__label--item">お問い合わせ内容</span>
             <span class="form__label--required">※</span>

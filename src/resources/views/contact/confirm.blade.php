@@ -29,9 +29,9 @@
               <td class="confirm-table__text">
                 @php
                 $genders = [
-                    'male' => '男性',
-                    'female' => '女性',
-                    'other' => 'その他',
+                    '1' => '男性',
+                    '2' => '女性',
+                    '3' => 'その他',
                     ];
                 @endphp
 

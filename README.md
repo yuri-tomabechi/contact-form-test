@@ -13,8 +13,8 @@ Dockerビルド
 
 1. docker-compose exec php bash
 2. composer install
-3. cp .env.example .env　（.env.exampleファイルから.envを作成）
-　　環境変数を変更　
+3. cp .env.example .env　
+   .env.exampleファイルから.envを作成し、環境変数を変更　
       DB_CONNECTION=mysql
       DB_HOST=mysql
       DB_PORT=3306
@@ -39,7 +39,7 @@ Dockerビルド
 
 
 ## URL
-・開発環境：　http://localhost/
+・開発環境：　http://localhost:8081/
 ・phpMyAdmin: http://localhost:8082/
 
 

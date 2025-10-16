@@ -5,7 +5,7 @@
 @endsection
 
 @section('button')
-<a href="" class="login__button">register</a>
+<a href="{{ route('register')}}" class="login__button">register</a>
 @endsection
 
 @section('content')

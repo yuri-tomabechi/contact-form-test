@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\Authcontroller;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +27,12 @@ Route::get('/thanks', function () {
     return view('contact.thanks');
 });
 
-Route::post('/register', [AuthController::class, 'register'])->name('register');
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/register', [RegisterController::class, 'register'])->name('register');
+Route::post('/login', [LoginController::class, 'login']);
 
-// 見るよう 
-Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register.form');
-Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::get('/register', [RegisterController::class, 'showRegisterForm'])->name('register.form');
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+
+// Route::get('/admin', [AdminController::class, 'admin']);
+Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+Route::get('/admin/{id}', [AdminController::class, 'show'])->name('admin.show');

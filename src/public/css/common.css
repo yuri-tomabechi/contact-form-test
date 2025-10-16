@@ -48,7 +48,8 @@ body {
     max-width: 500px;
     /* border: 1px solid red; */
     background-color: #fff;
-    padding: 50px 80px;
+    padding: 50px 75px;
+
 }
 
 
@@ -70,8 +71,8 @@ body {
 }
 
 .form__error {
-    height: 16px;
-    /* font-size: 16px; */
+    height: 20px;
+    font-size: 14px;
     color: #ff0000;
     text-align: left;
 }
