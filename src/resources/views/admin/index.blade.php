@@ -62,8 +62,8 @@
             <tr>
                 <td class="name__row">{{ $contact->last_name }} {{ $contact->first_name }}</td>
                 <td class="gender__row">
-                    @if($contact->gender === '1') 男性
-                    @elseif($contact->gender === '2') 女性
+                    @if($contact->gender == '1') 男性
+                    @elseif($contact->gender == '2') 女性
                     @else その他
                     @endif
                 </td>
